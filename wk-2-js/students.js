@@ -30,13 +30,21 @@ function addStudent(name, age, grades, enrolled) {
 // console.log(removeStudentByName("Lily"));
 // console.log(removeStudentByName("Misha"));
 
+
+
+
 function calculateAverage(student){
     let total = 0;
     for (let grade of student.grades) {
         total += grade;
     }
+let Samuel = students[4];
+console.log(Samuel);
+console.log(calculateAverage(Samuel));
     return total/numOfGrades;
 }
+
+
 let Misha = students[1];
 console.log(Misha);
 console.log(calculateAverage(Misha));

@@ -6,11 +6,11 @@ const students = [
     { name: "Samuel", age: 63, grades: [99, 100, 95], enrolled: true },]
 
 
-function addStudent(name, age, grades, enrolled) {
-    const newStudent = { name: "Chloe", age: 25, grades: [88, 92, 79], enrolled: true };
-    students.push(newStudent);
-    return newStudent;
-}
+// function addStudent(name, age, grades, enrolled) {
+//     const newStudent = { name: "Chloe", age: 25, grades: [88, 92, 79], enrolled: true };
+//     students.push(newStudent);
+//     return newStudent;
+// }
 
 
 // // console.log(students);
@@ -33,18 +33,18 @@ function addStudent(name, age, grades, enrolled) {
 
 
 
-function calculateAverage(student){
-    let total = 0;
-    for (let grade of student.grades) {
-        total += grade;
-    }
-let Samuel = students[4];
-console.log(Samuel);
-console.log(calculateAverage(Samuel));
-    return total/numOfGrades;
-}
+// function calculateAverage(student){
+//     let total = 0;
+//     for (let grade of student.grades) {
+//         total += grade;
+//     }
+// let Samuel = students[4];
+// console.log(Samuel);
+// console.log(calculateAverage(Samuel));
+//     return total/numOfGrades;
+// }
 
 
-let Misha = students[1];
-console.log(Misha);
-console.log(calculateAverage(Misha));
+// let Misha = students[1];
+// console.log(Misha);
+// console.log(calculateAverage(Misha));

@@ -52,7 +52,7 @@
 
 // card.append(me, food, image);
 
-// container.append(card);
+//     container.append(card);
 
 
 
@@ -143,7 +143,7 @@ todoForm.addEventListener("submit", function(event) {
     event.preventDefault();
     
 
-    todoError.textContent = ',';
+    // todoError.textContent = ',';
 
     todos.push({
         text: todoInput.value.trim(),
@@ -153,5 +153,7 @@ todoForm.addEventListener("submit", function(event) {
     renderTodos();
     todoForm.reset();
 });
+
+const itemsLeftCount = todos.filter((item) => !item.completed) 
 
 renderTodos();

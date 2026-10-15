@@ -136,4 +136,4 @@ function renderNotes() {
 
         meta.append(categoryLabel, dateLabel);
         card.append(title, description, meta);
-
+    
